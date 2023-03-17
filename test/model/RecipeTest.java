@@ -17,10 +17,10 @@ public class RecipeTest {
     public void setupStage2(){
         rec1 = new Recipe();
         Ingredient uno = new Ingredient("Cebolla", 315);
-        Ingredient dos = new Ingredient("Ajo", 58);
-        Ingredient tres = new Ingredient("Arroz", 520);
         rec1.addIngredient(uno);
+        Ingredient dos = new Ingredient("Ajo", 58);
         rec1.addIngredient(dos);
+        Ingredient tres = new Ingredient("Arroz", 520);
         rec1.addIngredient(tres);
     }
     //Añadir un ingrediente a una Recipe vacía
